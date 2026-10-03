@@ -1,4 +1,19 @@
+# Edge Impulse generated deployment artifacts
+**/edge-impulse-sdk/
+**/model-parameters/
+**/tflite-model/
+*_inferencing.zip
+src.zip
+
+# Credentials / local configuration
+secrets.h
+.env
+
+# Arduino / build files
 build/
-.vscode/
 *.bin
 *.elf
+
+# OS / editor files
+.DS_Store
+.vscode/
